@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-image: ;
+}
+header{
+  width: 25vw;
+  height: 25vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid;
+}
+header img{
+  width: 100px;
+  height: 70px;
+}
+main{
+  width: 25vw;
+  height: 50vh;
+  text-align: center;
+  border: solid;
+}

@@ -2,25 +2,34 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
 }
 body{
-  background-image: ;
+  background-color: aqua;
 }
+
 header{
   width: 25vw;
   height: 25vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  border: solid;
 }
 header img{
-  width: 100px;
-  height: 70px;
+  width: 15vw;
+  height: 10vh;
 }
 main{
   width: 25vw;
   height: 50vh;
   text-align: center;
   border: solid;
+}
+main img{
+  width: 5vw;
+  height: 5vh;
+}
+footer img{
+  width: 5vw;
+  height: 5vh;
 }

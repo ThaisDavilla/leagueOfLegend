@@ -8,14 +8,14 @@ body{
 }
 .photo img{
   width: 75vw;
-  height: 98vh;
+  height: 99vh;
 }
 .login{
   width: 25vw;
-  height: 98vh;
+  height: 99vh;
   display: flex;
   flex-direction: column;
-  border: solid red;
+  
 }
 .logo{
   width: 100%;
@@ -62,22 +62,33 @@ nav img{
   width: 1.5vw;
   height: 1.8vh;
 }
-a{
+
+.facebook{
+  background-color: #2051FF;
   width: 6vw;
   height: 4vh;
+  border-radius: 5px;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 5px;
-}
-.facebook{
-  background-color: #2051FF;
 }
 .google{
   background-color: #8A0000;
+  width: 6vw;
+  height: 4vh;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .apple{
   background-color: #000000;
+  width: 6vw;
+  height: 4vh;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .check{
   width: 81%;
@@ -94,23 +105,22 @@ label{
 }
 .final{
   width: 100%;
-  height: 45vh;
+  height: 20vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: flex-end;
   align-items: center;
-  border: solid;
+
 }
 button{
   width: 4vw;
   height: 7vh;
   border: none;
   border-radius: 10px;
-  background-color: #FF002E;
+  background-color:  rgba(255, 0, 46, 0.21);
 }
 button img{
   width: 3vw;
   height: 4vh;
-  
 }
 

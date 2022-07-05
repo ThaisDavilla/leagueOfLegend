@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,49 +8,58 @@
   <title>DOM JS</title>
 </head>
 <body>
-  <header>
-    <img src="img/riot.png" alt="Logo Riot Games">
-  </header>
+  <section class="login">
+    <figure class="logo">
+      <img src="img/riot.png" alt="Logo da marca Riot Games.">
+    </figure>
 
-  <main>
     <form>
-     <h1>Fazer Login</h1>
-     <input type="text" placeholder="Nome de Usuário">
-     <input type="password" placeholder="Senha">
+      <h4>Fazer login</h4>
+      <input class="logar" type="text" placeholder="Nome de Usuário">
+      <input class="logar" type="password" placeholder="senha">
     </form>
 
-    <section>
-     <figure class="facebook">
-      <a href="#" target="_blank">
-      <img src="img/facebook.png" alt="Logo da rede social Facebook.">
+    <nav>
+      <a class="facebook" href="#" target="_blank">
+        <img src="img/facebook.png" alt="Logo do Facebook.">
       </a>
-     </figure>
+
+      <a class="google" href="#" target="_blank">
+        <img src="img/google.png" alt="Logo da Google.">
+      </a>
+
+      <a class="apple" href="#" target="_blank">
+        <img src="img/aplle.png" alt="Logo da Apple.">
+      </a>
+     </nav>
+
+     <div class="check">
+      <input type="checkbox">
+      <label for=""><h4>Manter login</h4></label>
+     </div>
      
-     <figure class="google">
-      <a href="#" target="_blank">
-      <img src="img/google.png" alt="Logo da Google.">
-      </a>
-     </figure>
+     <div class="final">
+      <button>
+       <img src="img/backgroundBotton.png" alt="Seta.">
+      </button>
+      <p>
+       <a href="#">Não consegue iniciar sessão?</a>
+      </p>
+      <p>
+       <a href="#">Criar conta</a>
+      </p>
+     </div>
 
-     <figure class="apple">
-      <a href="#" target="_blank">
-      <img src="img/aplle.png" alt="Logo da Apple.">
-      </a>
-     </figure>
-    </section>
+  </section>
 
-    <input type="checkbox"><label for="">Manter Login</label>
-    
+  <section class="photo">
+    <figure>
+      <img src="img/lol.png" alt="Imagem de três personagens do jogo enfrentando um dragão numa batalha.">
+    </figure>
+  </section>
+
+ 
   
-  </main>
-  <footer>
-    <button>
-      <img src="img/backgroundBotton.png" alt="">
-    </button>
-    <p><a href="#">Não consegue iniciar sessão?</a></p>
-    <p><a href="#">Criar conta</a></p>
-
-  </footer>
   <script src="script.js"></script>
 </body>
 </html>

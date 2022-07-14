@@ -98,10 +98,10 @@ nav img{
   border-radius: 3px;
   color: #D9D9D9;
 }
-label{
+h5{
   position: relative;
   left: 1.2vw;
-  bottom: 3vh;
+  bottom: 2.7vh;
 }
 .final{
   width: 100%;
@@ -110,7 +110,6 @@ label{
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-
 }
 button{
   width: 3vw;
@@ -122,6 +121,9 @@ button{
 button img{
   width: 2vw;
   height: 3vh;
+}
+button:hover{
+  cursor: pointer;
 }
 a{
   text-decoration: none;

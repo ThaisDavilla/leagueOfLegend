@@ -1,34 +1,42 @@
 @import url('https://fonts.googleapis.com/css2? família=Inter:wght@700&display=swap');
-*{
+
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   font-family: 'inter', sans-serif;
 }
-body{
+
+body {
   display: flex;
 }
-.photo img{
+
+.photo img {
   width: 75vw;
   height: 99vh;
 }
-.login{
+
+.login {
   width: 25vw;
   height: 99vh;
   display: flex;
   flex-direction: column;
 }
-.logo{
+
+.logo {
   width: 100%;
   height: 30vh;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.logo img{
+
+.logo img {
   width: 9vw;
   height: 8vh;
 }
-form{
+
+form {
   width: 100%;
   height: 25vh;
   display: flex;
@@ -36,7 +44,8 @@ form{
   align-items: center;
   justify-content: space-evenly;
 }
-.logar{
+
+.logar {
   border: none;
   background-color: #e8e6e6;
   width: 20vw;
@@ -44,13 +53,15 @@ form{
   font-size: 1.7vh;
   font: #716E6E;
 }
-input::placeholder{
+
+input::placeholder {
   position: relative;
   bottom: 25%;
   left: 5%;
   text-transform: capitalize;
 }
-nav{
+
+nav {
   width: 90%;
   height: 7vh;
   margin: 0 auto;
@@ -58,12 +69,12 @@ nav{
   align-items: center;
   justify-content: space-evenly;
 }
-nav img{
-  width: 2.12w;
-  height: 2.4vh;
+
+nav img {
+  height: 3vh;
 }
 
-.facebook{
+.facebook {
   background-color: #2051FF;
   width: 6vw;
   height: 5vh;
@@ -72,7 +83,8 @@ nav img{
   align-items: center;
   justify-content: center;
 }
-.google{
+
+.google {
   background-color: #8A0000;
   width: 6vw;
   height: 5vh;
@@ -81,7 +93,8 @@ nav img{
   align-items: center;
   justify-content: center;
 }
-.apple{
+
+.apple {
   background-color: #000000;
   width: 6vw;
   height: 5vh;
@@ -90,20 +103,24 @@ nav img{
   align-items: center;
   justify-content: center;
 }
-.check{
+
+.check {
   width: 81%;
   margin: 0 auto;
 }
-.check input{
+
+.check input {
   border-radius: 3px;
   color: #D9D9D9;
 }
-h5{
+
+h5 {
   position: relative;
   left: 1.2vw;
   bottom: 2.7vh;
 }
-.final{
+
+.final {
   width: 100%;
   height: 20vh;
   display: flex;
@@ -111,23 +128,98 @@ h5{
   justify-content: flex-end;
   align-items: center;
 }
-button{
+
+button {
   width: 3vw;
   height: 6vh;
   border: none;
   border-radius: 10px;
-  background-color:  rgba(255, 0, 46, 0.21);
+  background-color: rgba(255, 0, 46, 0.21);
 }
-button img{
+
+button img {
   width: 2vw;
   height: 3vh;
 }
-button:hover{
+
+button:hover {
   cursor: pointer;
 }
-a{
+
+a {
   text-decoration: none;
   font-size: 0.7em;
   font: #A6A6A6;
 }
 
+
+@media (max-width:800px){
+  body {
+    background-image: url(img/lol.png);
+    background-repeat:no-repeat;
+    
+}
+.photo img {
+  display: none;
+}
+.login {
+  background-color: aliceblue;
+  width: 80vw;
+  height: 100%;
+  margin: 22% auto;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10%;
+}
+.logo {
+  width: 50%;
+  height: 20vh;
+  margin:0 auto;
+}
+
+.logo img {
+  width: 32vw;
+  height: 10vh;
+}
+form {
+  width: 100%;
+  height: 27vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  }
+
+.logar {
+  border: none;
+  background-color: #e8e6e6;
+  width: 90%;
+  height: 7vh;
+  font-size: 1.7vh;
+  font: #716E6E;
+}
+nav {
+  width: 60%;
+  height: 7vh;
+  margin: 0 auto;
+}
+
+h5 {
+  position: relative;
+  left: 4.2vw;
+  bottom: 2.2vh;
+}
+.final {
+  width: 100%;
+  height: 15vh;
+}
+
+button {
+  width: 14vw;
+  height: 6vh;
+}
+
+
+
+
+}

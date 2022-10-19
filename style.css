@@ -154,7 +154,7 @@ a {
 
 
 @media (max-width:800px){
-  body {
+  html {
     background-image: url(img/lol.png);
     background-repeat:no-repeat;
     
